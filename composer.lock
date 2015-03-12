@@ -4,8 +4,163 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "70fde0ae5df336969f84fde544197749",
+    "hash": "91fa72a92d0a169db18b3f2922fbbf9c",
     "packages": [
+        {
+            "name": "slub/slub_solr_doc",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrode/slub_solr_doc.git",
+                "reference": "4cd8e00d086370d1e04400767d17873c859dae6c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrode/slub_solr_doc/zipball/4cd8e00d086370d1e04400767d17873c859dae6c",
+                "reference": "4cd8e00d086370d1e04400767d17873c859dae6c",
+                "shasum": ""
+            },
+            "require": {
+                "solarium/solarium": "~3.3",
+                "typo3/cms-core": ">=6.2.9,<8.0"
+            },
+            "replace": {
+                "typo3-ter/slub_doc": "*"
+            },
+            "type": "typo3-cms-extension",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "",
+                    "email": "",
+                    "role": "Developer"
+                }
+            ],
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "support": {
+                "email": "",
+                "source": "",
+                "issues": ""
+            },
+            "time": "2015-03-12 17:58:03"
+        },
+        {
+            "name": "solarium/solarium",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/solariumphp/solarium.git",
+                "reference": "e993186e913741ca8bad7d36c3023ccdc7f51f01"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/e993186e913741ca8bad7d36c3023ccdc7f51f01",
+                "reference": "e993186e913741ca8bad7d36c3023ccdc7f51f01",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "symfony/event-dispatcher": "~2.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7",
+                "satooshi/php-coveralls": "~0.6",
+                "squizlabs/php_codesniffer": "~1.4",
+                "zendframework/zendframework1": "~1.12"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-develop": "3.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Solarium\\": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "NewBSD"
+            ],
+            "authors": [
+                {
+                    "name": "See GitHub contributors",
+                    "homepage": "https://github.com/basdenooijer/solarium/contributors"
+                }
+            ],
+            "description": "PHP Solr client",
+            "homepage": "http://www.solarium-project.org",
+            "keywords": [
+                "php",
+                "search",
+                "solr"
+            ],
+            "time": "2015-03-09 07:54:02"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "2.7.x-dev",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "ce9246f87133be616f5db06b5e162f5210f95280"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/ce9246f87133be616f5db06b5e162f5210f95280",
+                "reference": "ce9246f87133be616f5db06b5e162f5210f95280",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/config": "~2.0,>=2.0.5|~3.0.0",
+                "symfony/dependency-injection": "~2.6|~3.0.0",
+                "symfony/expression-language": "~2.6|~3.0.0",
+                "symfony/phpunit-bridge": "~2.7|~3.0.0",
+                "symfony/stopwatch": "~2.3|~3.0.0"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.7-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com",
+            "time": "2015-02-18 10:38:04"
+        },
         {
             "name": "typo3/cms",
             "version": "6.2.9",
@@ -194,8 +349,10 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "slub/slub_solr_doc": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

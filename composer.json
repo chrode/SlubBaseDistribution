@@ -1,6 +1,7 @@
 {
 	"repositories": [
-		{ "type": "composer", "url": "http://composer.typo3.org/" }
+		{ "type": "composer", "url": "http://composer.typo3.org/"},
+		{ "type": "vcs", "url": "https://github.com/chrode/slub_solr_doc.git"}
 	],
 	"name": "typo3/cms-base-distribution",
 	"description" : "TYPO3 CMS Base Distribution",
@@ -10,6 +11,8 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"typo3/cms": "6.2.9"
-	}
+		"typo3/cms": "6.2.9",
+		"slub/slub_solr_doc": "dev-master"
+	},
+	"minimum-stability": "dev"
 }
