@@ -4,143 +4,31 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5092ec3fa8825ccd5a970fe09ca8f04f",
+    "hash": "672c13f0cabaa4d800c1e1d58834f802",
     "packages": [
         {
-            "name": "slub/slub_solr_doc",
-            "version": "dev-master",
+            "name": "helhum/class-alias-loader",
+            "version": "1.0.x-dev",
             "source": {
                 "type": "git",
-                "url": "https://github.com/chrode/slub_solr_doc.git",
-                "reference": "03c53f13c972f822459fd91a948b4c88c7bb7cc6"
+                "url": "https://github.com/helhum/class-alias-loader.git",
+                "reference": "0619e9224f5c473f5885e71b5fb7977f51cc9f69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrode/slub_solr_doc/zipball/03c53f13c972f822459fd91a948b4c88c7bb7cc6",
-                "reference": "03c53f13c972f822459fd91a948b4c88c7bb7cc6",
+                "url": "https://api.github.com/repos/helhum/class-alias-loader/zipball/0619e9224f5c473f5885e71b5fb7977f51cc9f69",
+                "reference": "0619e9224f5c473f5885e71b5fb7977f51cc9f69",
                 "shasum": ""
-            },
-            "require": {
-                "solarium/solarium": "~3.3",
-                "typo3/cms-core": ">=6.2.9,<8.0"
-            },
-            "replace": {
-                "typo3-ter/slub_doc": "*"
-            },
-            "type": "typo3-cms-extension",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "",
-                    "email": "",
-                    "role": "Developer"
-                }
-            ],
-            "keywords": [
-                "TYPO3 CMS"
-            ],
-            "support": {
-                "email": "",
-                "source": "",
-                "issues": ""
-            },
-            "time": "2015-03-12 19:01:15"
-        },
-        {
-            "name": "solarium/solarium",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/solariumphp/solarium.git",
-                "reference": "e993186e913741ca8bad7d36c3023ccdc7f51f01"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/solariumphp/solarium/zipball/e993186e913741ca8bad7d36c3023ccdc7f51f01",
-                "reference": "e993186e913741ca8bad7d36c3023ccdc7f51f01",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "symfony/event-dispatcher": "~2.1"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~3.7",
-                "satooshi/php-coveralls": "~0.6",
-                "squizlabs/php_codesniffer": "~1.4",
-                "zendframework/zendframework1": "~1.12"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-develop": "3.3.x-dev"
+                    "dev-master": "1.0.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Solarium\\": "library/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "NewBSD"
-            ],
-            "authors": [
-                {
-                    "name": "See GitHub contributors",
-                    "homepage": "https://github.com/basdenooijer/solarium/contributors"
-                }
-            ],
-            "description": "PHP Solr client",
-            "homepage": "http://www.solarium-project.org",
-            "keywords": [
-                "php",
-                "search",
-                "solr"
-            ],
-            "time": "2015-03-09 07:54:02"
-        },
-        {
-            "name": "symfony/event-dispatcher",
-            "version": "2.7.x-dev",
-            "target-dir": "Symfony/Component/EventDispatcher",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/EventDispatcher.git",
-                "reference": "ce9246f87133be616f5db06b5e162f5210f95280"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/ce9246f87133be616f5db06b5e162f5210f95280",
-                "reference": "ce9246f87133be616f5db06b5e162f5210f95280",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.9"
-            },
-            "require-dev": {
-                "psr/log": "~1.0",
-                "symfony/config": "~2.0,>=2.0.5|~3.0.0",
-                "symfony/dependency-injection": "~2.6|~3.0.0",
-                "symfony/expression-language": "~2.6|~3.0.0",
-                "symfony/phpunit-bridge": "~2.7|~3.0.0",
-                "symfony/stopwatch": "~2.3|~3.0.0"
-            },
-            "suggest": {
-                "symfony/dependency-injection": "",
-                "symfony/http-kernel": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.7-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Symfony\\Component\\EventDispatcher\\": ""
+                "psr-4": {
+                    "Helhum\\ClassAliasLoader\\": "Classes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -149,37 +37,122 @@
             ],
             "authors": [
                 {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                },
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "name": "Helmut Hummel",
+                    "email": "info@helhum.io"
                 }
             ],
-            "description": "Symfony EventDispatcher Component",
-            "homepage": "http://symfony.com",
-            "time": "2015-02-18 10:38:04"
+            "description": "Amends the composer class loader to support class aliases to provide backwards compatibility for packages",
+            "homepage": "http://github.com/helhum/class-alias-loader",
+            "keywords": [
+                "alias",
+                "autoloader",
+                "classloader",
+                "composer"
+            ],
+            "time": "2015-03-13 14:40:50"
+        },
+        {
+            "name": "slub/find",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrode/typo3-find.git",
+                "reference": "59fdaf465b36beed1df10634c8a2719d5f400a2f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrode/typo3-find/zipball/59fdaf465b36beed1df10634c8a2719d5f400a2f",
+                "reference": "59fdaf465b36beed1df10634c8a2719d5f400a2f",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": ">=6.2.11,<8.0"
+            },
+            "replace": {
+                "subgoe/find": "*",
+                "typo3-ter/find": "*"
+            },
+            "type": "typo3-cms-extension",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Sven-S. Porst, Ingo Pfennigstorf",
+                    "email": "porst@sub.uni-goettingen.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A frontend for Solr indexes",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "support": {
+                "source": "https://github.com/chrode/typo3-find/tree/master"
+            },
+            "time": "2015-03-31 16:36:18"
+        },
+        {
+            "name": "slub/find-slub",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrode/typo3-find-slub.git",
+                "reference": "1c1f022935725cad2043809eea75562af7c1ad8f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrode/typo3-find-slub/zipball/1c1f022935725cad2043809eea75562af7c1ad8f",
+                "reference": "1c1f022935725cad2043809eea75562af7c1ad8f",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/cms-core": ">=6.2.11,<8.0"
+            },
+            "replace": {
+                "typo3-ter/find-slub": "*"
+            },
+            "type": "typo3-cms-extension",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Christof Rodejohann",
+                    "email": "christof.rodejohann@slub-dresden.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Configuration for the frontend for Solr indexes",
+            "keywords": [
+                "TYPO3 CMS"
+            ],
+            "support": {
+                "source": "https://github.com/chrode/typo3-find-slub/tree/master",
+                "issues": "https://github.com/chrode/typo3-find-slub/issues"
+            },
+            "time": "2015-03-31 16:38:33"
         },
         {
             "name": "typo3/cms",
-            "version": "6.2.9",
+            "version": "6.2.11",
             "source": {
                 "type": "git",
-                "url": "https://git.typo3.org/Packages/TYPO3.CMS.git",
-                "reference": "177cd38666bb4e7a026c60cdeda252596bf2c587"
+                "url": "https://github.com/TYPO3/TYPO3.CMS.git",
+                "reference": "1e44a4d1533aa4d70e6fa90ec96ef3f098844d59"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://get.typo3.org/6.2.9",
-                "reference": "6.2.9",
-                "shasum": "2ff12af0c7a21c1542b9cbac5da813ff1b403dae"
+                "url": "http://get.typo3.org/6.2.11",
+                "reference": "6.2.11",
+                "shasum": "935aa012e2904742ddf1fd9bb2118865edf4097b"
             },
             "require": {
                 "ext-fileinfo": "*",
                 "ext-pcre": "*",
                 "ext-session": "*",
                 "ext-xml": "*",
+                "helhum/class-alias-loader": "1.0.*@dev",
                 "php": ">=5.3.7",
                 "typo3/cms-composer-installers": "1.1.*@dev"
             },
@@ -244,7 +217,7 @@
             },
             "require-dev": {
                 "mikey179/vfsstream": "1.3.*@dev",
-                "phpunit/phpunit": "~4.4.0"
+                "phpunit/phpunit": "~4.5.0"
             },
             "suggest": {
                 "ext-gd": "GDlib/Freetype is required for building images with text (GIFBUILDER) and can also be used to scale images",
@@ -257,6 +230,41 @@
             "extra": {
                 "branch-alias": {
                     "dev-TYPO3_6-2": "6.2.x-dev"
+                },
+                "autoload-case-sensitivity": false,
+                "class-alias-maps": [
+                    "typo3/sysext/backend/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/core/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/cshmanual/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/extbase/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/extensionmanager/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/fluid/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/frontend/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/install/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/lang/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/recordlist/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/saltedpasswords/Migrations/Code/ClassAliasMap.php",
+                    "typo3/sysext/sv/Migrations/Code/ClassAliasMap.php"
+                ]
+            },
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Flow\\": "typo3/sysext/core/Resources/PHP/TYPO3.Flow/Classes/"
+                },
+                "psr-4": {
+                    "Psr\\Log\\": "typo3/contrib/Psr/Log/",
+                    "TYPO3\\CMS\\Backend\\": "typo3/sysext/backend/Classes/",
+                    "TYPO3\\CMS\\Core\\": "typo3/sysext/core/Classes/",
+                    "TYPO3\\CMS\\Cshmanual\\": "typo3/sysext/cshmanual/Classes/",
+                    "TYPO3\\CMS\\Extbase\\": "typo3/sysext/extbase/Classes/",
+                    "TYPO3\\CMS\\Extensionmanager\\": "typo3/sysext/extensionmanager/Classes/",
+                    "TYPO3\\CMS\\Fluid\\": "typo3/sysext/fluid/Classes/",
+                    "TYPO3\\CMS\\Frontend\\": "typo3/sysext/frontend/Classes/",
+                    "TYPO3\\CMS\\Install\\": "typo3/sysext/install/Classes/",
+                    "TYPO3\\CMS\\Lang\\": "typo3/sysext/lang/Classes/",
+                    "TYPO3\\CMS\\Recordlist\\": "typo3/sysext/recordlist/Classes/",
+                    "TYPO3\\CMS\\Saltedpasswords\\": "typo3/sysext/saltedpasswords/Classes/",
+                    "TYPO3\\CMS\\Sv\\": "typo3/sysext/sv/Classes/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -283,7 +291,7 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2014-12-10 10:45:08"
+            "time": "2015-03-17 14:06:19"
         },
         {
             "name": "typo3/cms-composer-installers",
@@ -494,12 +502,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "74cf128bd0f643957c076cc67121dbff445755fe"
+                "reference": "4676604b851bfc6fc02bf3394bf350c727bcebf4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/74cf128bd0f643957c076cc67121dbff445755fe",
-                "reference": "74cf128bd0f643957c076cc67121dbff445755fe",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4676604b851bfc6fc02bf3394bf350c727bcebf4",
+                "reference": "4676604b851bfc6fc02bf3394bf350c727bcebf4",
                 "shasum": ""
             },
             "require": {
@@ -548,7 +556,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-03-06 11:27:25"
+            "time": "2015-03-19 05:49:08"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -810,12 +818,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "37e984c0d004800c456658cb08580fdfd26d9c1d"
+                "reference": "55484334fb4c306ed24bfc3bdb0874685c29036f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/37e984c0d004800c456658cb08580fdfd26d9c1d",
-                "reference": "37e984c0d004800c456658cb08580fdfd26d9c1d",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/55484334fb4c306ed24bfc3bdb0874685c29036f",
+                "reference": "55484334fb4c306ed24bfc3bdb0874685c29036f",
                 "shasum": ""
             },
             "require": {
@@ -857,7 +865,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-03-02 06:02:35"
+            "time": "2015-03-18 09:04:51"
         },
         {
             "name": "sebastian/comparator",
@@ -1237,12 +1245,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "14c16566bbc978249ae858024da396a5c15c03ed"
+                "reference": "3882af2f22672e347030b561cc6c5abc2b335566"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/14c16566bbc978249ae858024da396a5c15c03ed",
-                "reference": "14c16566bbc978249ae858024da396a5c15c03ed",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/3882af2f22672e347030b561cc6c5abc2b335566",
+                "reference": "3882af2f22672e347030b561cc6c5abc2b335566",
                 "shasum": ""
             },
             "require": {
@@ -1278,7 +1286,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-12 14:31:07"
+            "time": "2015-03-30 15:55:07"
         },
         {
             "name": "twbs/bootstrap",
@@ -1286,12 +1294,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "ba1345f144283d579b07cd40b5ae5a5b84d2b2e7"
+                "reference": "bb6af65ca6acc831092fa1fcb1c795dbe081ab4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/ba1345f144283d579b07cd40b5ae5a5b84d2b2e7",
-                "reference": "ba1345f144283d579b07cd40b5ae5a5b84d2b2e7",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/bb6af65ca6acc831092fa1fcb1c795dbe081ab4c",
+                "reference": "bb6af65ca6acc831092fa1fcb1c795dbe081ab4c",
                 "shasum": ""
             },
             "replace": {
@@ -1329,13 +1337,14 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-03-10 20:20:23"
+            "time": "2015-03-29 06:40:29"
         }
     ],
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "slub/slub_solr_doc": 20,
+        "slub/find": 20,
+        "slub/find-slub": 20,
         "mikey179/vfsstream": 20
     },
     "prefer-stable": false,
