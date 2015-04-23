@@ -4,26 +4,26 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "672c13f0cabaa4d800c1e1d58834f802",
+    "hash": "0be684d13059eec24ab09d844cb45a3a",
     "packages": [
         {
             "name": "helhum/class-alias-loader",
-            "version": "1.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/helhum/class-alias-loader.git",
-                "reference": "0619e9224f5c473f5885e71b5fb7977f51cc9f69"
+                "reference": "486fea8c1fb7cd568c73a62a4add3a0a353827ca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/helhum/class-alias-loader/zipball/0619e9224f5c473f5885e71b5fb7977f51cc9f69",
-                "reference": "0619e9224f5c473f5885e71b5fb7977f51cc9f69",
+                "url": "https://api.github.com/repos/helhum/class-alias-loader/zipball/486fea8c1fb7cd568c73a62a4add3a0a353827ca",
+                "reference": "486fea8c1fb7cd568c73a62a4add3a0a353827ca",
                 "shasum": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -49,20 +49,20 @@
                 "classloader",
                 "composer"
             ],
-            "time": "2015-03-13 14:40:50"
+            "time": "2015-03-22 20:28:13"
         },
         {
             "name": "slub/find",
-            "version": "dev-master",
+            "version": "dev-slub",
             "source": {
                 "type": "git",
-                "url": "https://github.com/chrode/typo3-find.git",
-                "reference": "59fdaf465b36beed1df10634c8a2719d5f400a2f"
+                "url": "https://github.com/slub/typo3-find.git",
+                "reference": "81e13000c367da00035d8f746c82691940985c26"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrode/typo3-find/zipball/59fdaf465b36beed1df10634c8a2719d5f400a2f",
-                "reference": "59fdaf465b36beed1df10634c8a2719d5f400a2f",
+                "url": "https://api.github.com/repos/slub/typo3-find/zipball/81e13000c367da00035d8f746c82691940985c26",
+                "reference": "81e13000c367da00035d8f746c82691940985c26",
                 "shasum": ""
             },
             "require": {
@@ -81,6 +81,11 @@
                     "name": "Sven-S. Porst, Ingo Pfennigstorf",
                     "email": "porst@sub.uni-goettingen.de",
                     "role": "Developer"
+                },
+                {
+                    "name": "Christof Rodejohann",
+                    "email": "chrtistof.rodejohann@slub-dresden.de",
+                    "role": "Developer"
                 }
             ],
             "description": "A frontend for Solr indexes",
@@ -88,9 +93,9 @@
                 "TYPO3 CMS"
             ],
             "support": {
-                "source": "https://github.com/chrode/typo3-find/tree/master"
+                "source": "https://github.com/slub/typo3-find/tree/slub"
             },
-            "time": "2015-03-31 16:36:18"
+            "time": "2015-04-23 13:50:03"
         },
         {
             "name": "slub/find-slub",
@@ -135,24 +140,24 @@
         },
         {
             "name": "typo3/cms",
-            "version": "6.2.11",
+            "version": "6.2.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/TYPO3/TYPO3.CMS.git",
-                "reference": "1e44a4d1533aa4d70e6fa90ec96ef3f098844d59"
+                "reference": "1fece4341b5bb18137f2fd60c34e30638b8eeef3"
             },
             "dist": {
                 "type": "tar",
-                "url": "http://get.typo3.org/6.2.11",
-                "reference": "6.2.11",
-                "shasum": "935aa012e2904742ddf1fd9bb2118865edf4097b"
+                "url": "http://get.typo3.org/6.2.12",
+                "reference": "6.2.12",
+                "shasum": "41775b361eb89c45195820cba8c8e3085dfa9f5d"
             },
             "require": {
                 "ext-fileinfo": "*",
                 "ext-pcre": "*",
                 "ext-session": "*",
                 "ext-xml": "*",
-                "helhum/class-alias-loader": "1.0.*@dev",
+                "helhum/class-alias-loader": "1.1.*@dev",
                 "php": ">=5.3.7",
                 "typo3/cms-composer-installers": "1.1.*@dev"
             },
@@ -291,7 +296,7 @@
                 "extbase",
                 "typo3"
             ],
-            "time": "2015-03-17 14:06:19"
+            "time": "2015-04-16 07:29:48"
         },
         {
             "name": "typo3/cms-composer-installers",
@@ -362,12 +367,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/instantiator.git",
-                "reference": "3d9669e597439e8d205baf315efb757038fb4dea"
+                "reference": "fc999e2f0508e434645ec2bfadeb89d39fa6453c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/3d9669e597439e8d205baf315efb757038fb4dea",
-                "reference": "3d9669e597439e8d205baf315efb757038fb4dea",
+                "url": "https://api.github.com/repos/doctrine/instantiator/zipball/fc999e2f0508e434645ec2bfadeb89d39fa6453c",
+                "reference": "fc999e2f0508e434645ec2bfadeb89d39fa6453c",
                 "shasum": ""
             },
             "require": {
@@ -408,7 +413,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-01-16 19:29:51"
+            "time": "2015-04-12 20:59:10"
         },
         {
             "name": "fortawesome/font-awesome",
@@ -502,12 +507,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
-                "reference": "4676604b851bfc6fc02bf3394bf350c727bcebf4"
+                "reference": "1678cee3b7f93f994da6acf7e998b23a98e955f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/4676604b851bfc6fc02bf3394bf350c727bcebf4",
-                "reference": "4676604b851bfc6fc02bf3394bf350c727bcebf4",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/1678cee3b7f93f994da6acf7e998b23a98e955f1",
+                "reference": "1678cee3b7f93f994da6acf7e998b23a98e955f1",
                 "shasum": ""
             },
             "require": {
@@ -530,7 +535,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.0.x-dev"
+                    "dev-master": "2.1.x-dev"
                 }
             },
             "autoload": {
@@ -556,7 +561,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-03-19 05:49:08"
+            "time": "2015-04-16 05:00:01"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -697,12 +702,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/php-token-stream.git",
-                "reference": "db32c18eba00b121c145575fcbcd4d4d24e6db74"
+                "reference": "eab81d02569310739373308137284e0158424330"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/db32c18eba00b121c145575fcbcd4d4d24e6db74",
-                "reference": "db32c18eba00b121c145575fcbcd4d4d24e6db74",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-token-stream/zipball/eab81d02569310739373308137284e0158424330",
+                "reference": "eab81d02569310739373308137284e0158424330",
                 "shasum": ""
             },
             "require": {
@@ -738,7 +743,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2015-01-17 09:51:32"
+            "time": "2015-04-08 04:46:07"
         },
         {
             "name": "phpunit/phpunit",
@@ -818,12 +823,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit-mock-objects.git",
-                "reference": "55484334fb4c306ed24bfc3bdb0874685c29036f"
+                "reference": "74ffb87f527f24616f72460e54b595f508dccb5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/55484334fb4c306ed24bfc3bdb0874685c29036f",
-                "reference": "55484334fb4c306ed24bfc3bdb0874685c29036f",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit-mock-objects/zipball/74ffb87f527f24616f72460e54b595f508dccb5c",
+                "reference": "74ffb87f527f24616f72460e54b595f508dccb5c",
                 "shasum": ""
             },
             "require": {
@@ -832,7 +837,7 @@
                 "phpunit/php-text-template": "~1.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.4.*@dev"
+                "phpunit/phpunit": "~4.4"
             },
             "suggest": {
                 "ext-soap": "*"
@@ -840,7 +845,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4.x-dev"
+                    "dev-master": "2.3.x-dev"
                 }
             },
             "autoload": {
@@ -865,7 +870,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-03-18 09:04:51"
+            "time": "2015-04-02 05:36:41"
         },
         {
             "name": "sebastian/comparator",
@@ -1205,16 +1210,16 @@
         },
         {
             "name": "sebastian/version",
-            "version": "1.0.4",
+            "version": "1.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/version.git",
-                "reference": "a77d9123f8e809db3fbdea15038c27a95da4058b"
+                "reference": "ab931d46cd0d3204a91e1b9a40c4bc13032b58e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/a77d9123f8e809db3fbdea15038c27a95da4058b",
-                "reference": "a77d9123f8e809db3fbdea15038c27a95da4058b",
+                "url": "https://api.github.com/repos/sebastianbergmann/version/zipball/ab931d46cd0d3204a91e1b9a40c4bc13032b58e4",
+                "reference": "ab931d46cd0d3204a91e1b9a40c4bc13032b58e4",
                 "shasum": ""
             },
             "type": "library",
@@ -1236,21 +1241,21 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2014-12-15 14:25:24"
+            "time": "2015-02-24 06:35:25"
         },
         {
             "name": "symfony/yaml",
-            "version": "2.7.x-dev",
+            "version": "2.8.x-dev",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "3882af2f22672e347030b561cc6c5abc2b335566"
+                "reference": "fdded56dde4ca9efce6322887bf5eaa7bb0aae3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/3882af2f22672e347030b561cc6c5abc2b335566",
-                "reference": "3882af2f22672e347030b561cc6c5abc2b335566",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/fdded56dde4ca9efce6322887bf5eaa7bb0aae3e",
+                "reference": "fdded56dde4ca9efce6322887bf5eaa7bb0aae3e",
                 "shasum": ""
             },
             "require": {
@@ -1262,7 +1267,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.7-dev"
+                    "dev-master": "2.8-dev"
                 }
             },
             "autoload": {
@@ -1286,7 +1291,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2015-03-30 15:55:07"
+            "time": "2015-04-10 08:56:33"
         },
         {
             "name": "twbs/bootstrap",
@@ -1294,12 +1299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "bb6af65ca6acc831092fa1fcb1c795dbe081ab4c"
+                "reference": "a2680e8b6ba628312780b00d8d74d28d28b89a84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/bb6af65ca6acc831092fa1fcb1c795dbe081ab4c",
-                "reference": "bb6af65ca6acc831092fa1fcb1c795dbe081ab4c",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/a2680e8b6ba628312780b00d8d74d28d28b89a84",
+                "reference": "a2680e8b6ba628312780b00d8d74d28d28b89a84",
                 "shasum": ""
             },
             "replace": {
@@ -1337,7 +1342,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-03-29 06:40:29"
+            "time": "2015-04-23 06:18:46"
         }
     ],
     "aliases": [],

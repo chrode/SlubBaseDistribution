@@ -1,7 +1,7 @@
 {
 	"repositories": [
 		{ "type": "composer", "url": "http://composer.typo3.org/" },
-		{ "type": "vcs", "url": "https://github.com/chrode/typo3-find/" },
+		{ "type": "vcs", "url": "https://github.com/slub/typo3-find/" },
         { "type": "vcs", "url": "https://github.com/chrode/typo3-find-slub/" }
 	],
 	"name": "typo3/cms-base-distribution",
@@ -12,8 +12,8 @@
 		"bin-dir": "bin"
 	},
 	"require": {
-		"typo3/cms": "6.2.11",
-		"slub/find": "dev-master",
+		"typo3/cms": "6.2.12",
+		"slub/find": "dev-slub",
         "slub/find-slub": "dev-master"
 	},
 	"require-dev": {
